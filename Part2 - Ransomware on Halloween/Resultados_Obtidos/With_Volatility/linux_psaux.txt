@@ -1,0 +1,154 @@
+Pid    Uid    Gid    Arguments                                                       
+1      0      0      /lib/systemd/systemd --system --deserialize 23                  
+2      0      0      [kthreadd]                                                      
+4      0      0      [kworker/0:0H]                                                  
+6      0      0      [mm_percpu_wq]                                                  
+7      0      0      [ksoftirqd/0]                                                   
+8      0      0      [rcu_sched]                                                     
+9      0      0      [rcu_bh]                                                        
+10     0      0      [migration/0]                                                   
+11     0      0      [watchdog/0]                                                    
+12     0      0      [cpuhp/0]                                                       
+13     0      0      [kdevtmpfs]                                                     
+14     0      0      [netns]                                                         
+15     0      0      [rcu_tasks_kthre]                                               
+16     0      0      [kauditd]                                                       
+17     0      0      [khungtaskd]                                                    
+18     0      0      [oom_reaper]                                                    
+19     0      0      [writeback]                                                     
+20     0      0      [kcompactd0]                                                    
+21     0      0      [ksmd]                                                          
+22     0      0      [khugepaged]                                                    
+23     0      0      [crypto]                                                        
+24     0      0      [kintegrityd]                                                   
+25     0      0      [kblockd]                                                       
+26     0      0      [ata_sff]                                                       
+27     0      0      [md]                                                            
+28     0      0      [edac-poller]                                                   
+29     0      0      [devfreq_wq]                                                    
+30     0      0      [watchdogd]                                                     
+31     0      0      [kworker/u2:1]                                                  
+34     0      0      [kswapd0]                                                       
+35     0      0      [ecryptfs-kthrea]                                               
+77     0      0      [kthrotld]                                                      
+78     0      0      [acpi_thermal_pm]                                               
+79     0      0      [scsi_eh_0]                                                     
+80     0      0      [scsi_tmf_0]                                                    
+81     0      0      [scsi_eh_1]                                                     
+82     0      0      [scsi_tmf_1]                                                    
+83     0      0      [kworker/u2:2]                                                  
+84     0      0      [kworker/u2:3]                                                  
+88     0      0      [ipv6_addrconf]                                                 
+97     0      0      [kstrp]                                                         
+114    0      0      [charger_manager]                                               
+159    0      0      [kworker/u2:4]                                                  
+160    0      0      [kworker/0:1H]                                                  
+161    0      0      [scsi_eh_2]                                                     
+162    0      0      [scsi_tmf_2]                                                    
+185    0      0      [jbd2/sda1-8]                                                   
+186    0      0      [ext4-rsv-conver]                                               
+214    0      0      /lib/systemd/systemd-journald                                   
+242    0      0      [kworker/0:5]                                                   
+324    0      0      [iprt-VBoxWQueue]                                               
+329    0      0      [ttm_swap]                                                      
+638    104    108    /usr/sbin/rsyslogd -n                                           
+646    106    110    /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+658    0      0      /usr/lib/accountsservice/accounts-daemon                        
+660    0      0      /usr/sbin/cron -f                                               
+665    111    120    avahi-daemon: running [sal                                      
+670    0      0      /lib/systemd/systemd-logind                                     
+671    0      0      /usr/sbin/NetworkManager --no-daemon                            
+687    0      0      /usr/sbin/acpid                                                 
+697    0      0      /usr/lib/snapd/snapd                                            
+723    111    120    avahi-daemon: chroot helpe                                      
+747    0      0      /usr/lib/policykit-1/polkitd --no-debug                         
+773    0      0      /usr/sbin/lightdm                                               
+789    0      0      /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+811    0      0      /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-enp0s3.pid -lf /var/lib/NetworkManager/dhclient-6126634e-c6d9-3437-9595-d0212040fea0-enp0s3.lease -cf /var/lib/NetworkManager/dhclient-enp0s3.conf enp0s3
+824    65534  30     /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+1025   0      0      lightdm --session-child 12 19                                   
+1084   118    126    /usr/lib/rtkit/rtkit-daemon                                     
+1105   0      0      /usr/lib/upower/upowerd                                         
+1127   113    123    /usr/lib/colord/colord                                          
+1148   1000   1000   /lib/systemd/systemd --user                                     
+1149   1000   1000   (sd-pam)                                                        
+1196   1000   1000   /usr/bin/gnome-keyring-daemon --daemonize --login               
+1211   1000   1000   /sbin/upstart --user                                            
+1291   1000   1000   upstart-udev-bridge --daemon --user                             
+1298   1000   1000   dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-5xy7V8IM8L
+1310   1000   1000   /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge               
+1349   1000   1000   /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon                       
+1354   1000   1000   upstart-dbus-bridge --daemon --session --user --bus-name session
+1357   1000   1000   upstart-dbus-bridge --daemon --system --user --bus-name system  
+1359   1000   1000   upstart-file-bridge --daemon --user                             
+1361   1000   1000   /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+1367   1000   1000   /usr/lib/gvfs/gvfsd                                             
+1378   1000   1000   /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes   
+1379   1000   1000   /usr/lib/at-spi2-core/at-spi-bus-launcher                       
+1382   1000   1000   /usr/lib/ibus/ibus-dconf                                        
+1393   1000   1000   /usr/lib/ibus/ibus-ui-gtk3                                      
+1396   1000   1000   /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+1398   1000   1000   /usr/lib/ibus/ibus-x11 --kill-daemon                            
+1403   1000   1000   /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session     
+1416   1000   1000   /usr/lib/ibus/ibus-engine-simple                                
+1422   109    117    /usr/bin/whoopsie -f                                            
+1433   0      0      /sbin/agetty --noclear tty1 linux                               
+1601   1000   1000   gpg-agent --homedir /home/sally/.gnupg --use-standard-socket --daemon
+1693   1000   1000   /usr/lib/x86_64-linux-gnu/hud/hud-service                       
+1695   1000   1000   /usr/lib/unity-settings-daemon/unity-settings-daemon            
+1704   1000   1000   /usr/lib/gnome-session/gnome-session-binary --session=ubuntu    
+1716   1000   1000   /usr/lib/x86_64-linux-gnu/unity/unity-panel-service             
+1748   1000   1000   /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+1749   1000   1000   /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+1750   1000   1000   /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+1766   1000   1000   /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+1768   1000   1000   /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+1773   1000   1000   /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+1779   1000   1000   /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+1785   1000   1000   /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+1804   1000   1000   /usr/lib/evolution/evolution-source-registry                    
+1810   1000   1000   /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+1814   1000   1000   /usr/bin/pulseaudio --start --log-target=syslog                 
+1845   1000   1000   /usr/lib/dconf/dconf-service                                    
+1869   1000   1000   /usr/lib/evolution/evolution-calendar-factory                   
+1877   1000   1000   compiz                                                          
+1898   1000   1000   nm-applet                                                       
+1901   1000   1000   nautilus -n                                                     
+1909   1000   1000   /usr/lib/unity-settings-daemon/unity-fallback-mount-helper      
+1910   1000   1000   /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1  
+1911   1000   1000   /usr/bin/gnome-software --gapplication-service                  
+1923   1000   1000   /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1869x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1869/2
+1937   1000   1000   /usr/lib/gvfs/gvfs-udisks2-volume-monitor                       
+1948   0      0      /usr/lib/udisks2/udisksd --no-debug                             
+1956   1000   1000   /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1869x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1869/3
+1957   1000   1000   /usr/lib/evolution/evolution-addressbook-factory                
+1959   0      0      /usr/lib/x86_64-linux-gnu/fwupd/fwupd                           
+1965   1000   1000   /usr/lib/gvfs/gvfs-afc-volume-monitor                           
+1974   1000   1000   /usr/lib/gvfs/gvfs-gphoto2-volume-monitor                       
+1981   1000   1000   /usr/lib/gvfs/gvfs-goa-volume-monitor                           
+1982   1000   1000   /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1957x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1957/2
+1987   1000   1000   /usr/lib/gvfs/gvfs-mtp-volume-monitor                           
+2020   1000   1000   /usr/lib/gvfs/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+2047   1000   1000   /usr/lib/gvfs/gvfsd-metadata                                    
+2240   1000   1000   zeitgeist-datahub                                               
+2248   1000   1000   /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+2253   1000   1000   /usr/bin/zeitgeist-daemon                                       
+2263   1000   1000   /usr/lib/x86_64-linux-gnu/zeitgeist-fts                         
+2414   1000   1000   update-notifier                                                 
+4738   100    102    /lib/systemd/systemd-timesyncd                                  
+7208   0      0      /lib/systemd/systemd-udevd                                      
+14147  1000   1000   /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor             
+14217  1000   1000   /usr/lib/gvfs/gvfsd-network --spawner :1.5 /org/gtk/gvfs/exec_spaw/2
+14243  1000   1000   /usr/lib/gvfs/gvfsd-dnssd --spawner :1.5 /org/gtk/gvfs/exec_spaw/5
+14400  0      0      /usr/sbin/cupsd -l                                              
+14401  0      0      /usr/sbin/cups-browsed                                          
+14411  7      7      /usr/lib/cups/notifier/dbus dbus://                             
+14412  7      7      /usr/lib/cups/notifier/dbus dbus://                             
+14829  0      0      [kworker/0:0]                                                   
+14919  1000   1000   /home/sally/Downloads/main                                      
+14921  1000   1000   /home/sally/Downloads/main                                      
+15240  1000   1000   /usr/lib/gnome-terminal/gnome-terminal-server                   
+15246  1000   1000   bash                                                            
+15294  0      1000   sudo insmod lime-4.15.0-38-generic.ko path=/tmp/sally_mem format=lime
+15297  0      0      insmod lime-4.15.0-38-generic.ko path=/tmp/sally_mem format=lime
+15298  0      0      (tmpfiles)                                                      
